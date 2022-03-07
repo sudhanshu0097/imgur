@@ -1,7 +1,7 @@
 let arr = [];
 let page = 1;
-
 let id;
+
 async function loadData() {
   let res = await fetch(
     `https://api.unsplash.com/photos/?client_id=pS4eP1mCKl80pqm03xgglzhI_6DgVgukr6NuMuZTkOc&page=${page}`
