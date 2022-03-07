@@ -115,3 +115,61 @@
     text-align: center;
     padding-top: 8rem;
 }
+
+.navbar-middle
+{
+    width: 90%;
+    margin: auto;
+    border: 1px solid teal;
+    height: 40%;
+
+}
+
+
+.navbar-middle .explore
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    color: #ffffff98;
+    font-weight: 700;
+
+}
+
+.navbar-middle .explore-card-div
+{
+    display: flex;
+    gap: 2%;
+    height: 80%
+}
+
+
+
+.navbar-middle .explore-card-div >div
+{
+    width: 9%;
+    height: 100%;
+    border: 1px solid red;
+}
+
+#firstdiv
+{
+    width: 15%;
+    border: 1px solid green;
+    
+}
+
+.navbar-middle .explore-card-div >div >div
+{
+    height: 100%;
+}
+
+
+
+
+
+#firstdiv> div>img
+{
+    height: 50%;
+    width: 100%;
+}
