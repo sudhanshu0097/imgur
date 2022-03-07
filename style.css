@@ -200,3 +200,11 @@
 .explore-card-div > div > div p:last-child {
     color: #ffffff90;
 }
+
+/* / *********************** NAVBAR ENDS *****************************/ */
+
+.container {
+    background-color:  #2e3035;
+    /* height: 200vh; */
+    width: 100%;
+}
