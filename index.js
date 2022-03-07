@@ -35,7 +35,7 @@ window.addEventListener("scroll", () => {
 });
 
 document.querySelector(".search-input").addEventListener("input", () => {
-  debounce(changeinput, 3000);
+  debounce(changeinput, 2000);
 });
 
 async function changeinput() {
